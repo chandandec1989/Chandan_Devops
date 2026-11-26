@@ -3,9 +3,11 @@
 - vedio <https://youtu.be/QwGm5m4AxNA>
 
 ### Install Grafana on Debian or Ubuntu
-- sudo apt-get install -y apt-transport-https
-- sudo apt-get install -y software-properties-common wget
-- sudo wget -q -O /usr/share/keyrings/grafana.key https://apt.grafana.com/gpg.key
+```text
+sudo apt-get install -y apt-transport-https
+sudo apt-get install -y software-properties-common wget
+sudo wget -q -O /usr/share/keyrings/grafana.key https://apt.grafana.com/gpg.key
+```
 
 ### Stable release
 ```text
